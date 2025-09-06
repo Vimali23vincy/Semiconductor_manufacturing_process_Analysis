@@ -47,11 +47,11 @@ Used **GridSearchCV** for hyperparameter tuning and cross-validation.
 
 ## 📊 Results
 | Model              | Train Accuracy | Test Accuracy |
-|--------------------|---------------|---------------|
-| Logistic Regression| 0.90          | 0.88          |
-| Random Forest      | 0.99          | 0.94          |
-| SVM (Best Model)   | 0.95          | **0.96**      |
-| Naive Bayes        | 0.85          | 0.83          |
+|--------------------|---------------|--------------- |
+| Logistic Regression| 1.000         | 0.954          |
+| Random Forest      | 1.000         | 0.991          |
+| SVM (Best Model)   | 1.000         | **0.997**      |
+| Naive Bayes        | 0.606         | 0.608          |
 
 **SVM** achieved the highest test accuracy, making it the most reliable model for predicting product quality.
 
